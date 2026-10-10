@@ -21,15 +21,14 @@ Vous allez mettre en pratique ces notions à travers la **mise en forme complèt
 
 1. **Accès à l’énoncé**
    - L’énoncé complet du TP est déposé sur **GitHub**.
-   - Le lien de l’assignement est communiqué dans **Google Classroom**.
 
 2. **Création de votre espace de travail**
-   - Acceptez l’assignement sur GitHub Classroom.
    - Clonez ensuite votre dépôt individuel.
 
 3. **Réalisation**
    - Complétez le fichier **`style.css`** dans le dossier de **chaque étape**.
    - Respectez les consignes et propriétés demandées dans le **TP3_CSS.pdf**.
+   - La **14e étape** consiste à remplacer le contenu HTML proposé par un contenu personnel couvrant une thématique en rapport avec le module.
 
 4. **Soumission**
    - Une fois le travail terminé :
@@ -42,7 +41,7 @@ Vous allez mettre en pratique ces notions à travers la **mise en forme complèt
 ---
 
 ## 🧾 Livrables attendus
-- Un **fichier unique `style.css`** dans **chaque dossier d’étape** (de `etape1` à `etape13`).
+- Un **fichier unique `style.css`** dans **chaque dossier d’étape** (de `etape1` à `etape14`).
 - Aucun autre fichier ne doit être modifié ni ajouté.
 
 ---
