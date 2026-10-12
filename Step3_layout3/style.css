@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: red;
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    border: 1px black solid;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.container .main-nav {
+    background-color: #cccccc;
+    width: 100%;
+    height: 60px;
+    border: 1px black solid;
+}
+
+.home-cards,
+.ruban,
+.links,
+.sub-footer,
+.follow,
+#bigData-intro {
+    background-color: #d3eaac,;
+    width: 100%;
+    height: 100px;
+    border: 1px black solid;
+}
+
+footer {
+    background-color: #CCCC;
+    width: 100%;
+    height: 100px;
+    border: 1px black solid;
+}
