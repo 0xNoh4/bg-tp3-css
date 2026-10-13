@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    height: 100px;
+    text-align: center;
+    border: 1px black solid;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.container .main-nav {
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    border: 1px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 2rem;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.container .main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container .main-nav .main-menu {
+    width: 100%;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.container .main-nav .logo {
+    width: 110px;
+    display: inline-block;
+}
+
+.container .main-nav .main-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.container .main-nav .main-menu li a {
+    text-decoration: none;
+    color: #262626;
+    transition: all 0.3s ease;
+}
+
+.container .main-nav .main-menu li a::after {
+    content: '';
+    display: block;
+    background: #262626;
+    width: 0px;
+    height: 2px;
+    transition: width 0.3s;
+}
+
+.container .main-nav .main-menu li a:hover:after {
+    width: 100%;
+}
+
+.container .main-nav .right-menu {
+    display: flex;
+    align-items: center;
+}
+.container .main-nav .right-menu li {
+    margin-left: 10px;
+    color: #262626;
+}
+.container .main-nav .right-menu li a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.home-cards,
+.ruban,
+.links,
+.sub-footer,
+.follow,
+#bigData-intro {
+    background-color: #d3eaac;
+    width: 100%;
+    height: 100px;
+    border: 1px black solid;
+}
+
+/* step 5 */
+.showcase {
+    background: url('../img/slide1.png') no-repeat center top;
+    background-size: 45%;
+    background-clip: content-box;
+    background-color: #fff;
+
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 10px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.showcase h2,
+.showcase p {
+    margin-bottom: 10px;
+}
+
+.showcase .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+
+    background-color: #378ff5;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.showcase .btn:hover {
+    opacity: 0.8;
+}
+
+.dark {
+    color: #fff;
+}
+
+.dark .btn {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* step 6 */
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    background-color: #fff;
+    margin-bottom: 40px;
+    width: auto;
+    border: none;
+    height: max-content;
+    text-align: left;
+}
+
+.home-cards img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.home-cards h3 {
+    padding-bottom: 5px;
+}
+
+.home-cards a {
+    color: #0067b8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+.home-cards a i {
+    transition: transform 0.3s ease;
+}
+
+.home-cards a:hover i {
+    transform: translateX(10px);
+}
+
+/* step 7 */
+#bigData-intro {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    background-image: url('../img/bigData.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+    border: none;
+    margin-bottom: 20px;
+}
+#bigData-intro .content {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: left;
+    width: 40%;
+    padding-left: 30px;
+}
+#bigData-intro .content a, .ruban .content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+
+    background-color: #378ff5;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+#bigData-intro .content a:hover, .ruban .content a:hover {
+    opacity: 0.8;
+}
+
+/* step 8 */
+/* same as step 6 */
+
+/* step 9 */
+.ruban {
+    text-align: left;
+    background-image: url('../img/carbon2.jpg');
+    background-position: bottom;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border: none;
+}
+
+.ruban .content {
+    box-sizing: border-box;
+    text-align: left;
+    width: 55%;
+
+    padding-top: 40px;
+    padding-left: 30px;
+}
+.ruban .content a {
+    background-color: #03254c;
+}
+
+/* step 10 */
+.follow {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 5px;
+    height: max-content;
+    border: none;
+    background-color: #fff;
+}
+.follow p, .follow a {
+    padding: 10px;
+}
+.follow a span {
+    font-size: 30px;
+    color: #000;
+}
+
+/* step 11 */
