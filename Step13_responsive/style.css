@@ -423,10 +423,14 @@ body {
         padding-right: 0;
     }
 
-    .ruban div p {
-        font-size: 10px;
-    }
-    #bigData-intro .content a, .ruban .content a {
+    #bigData-intro .content a {
         font-size: 13px;
+    }
+
+    .container .main-nav .main-menu {
+        display: inline-flex;
+    }
+    .container .main-nav .main-menu li {
+        margin-right: 5px;
     }
 }
